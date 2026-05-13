@@ -4,7 +4,7 @@ import os
 from PIL import Image
 from PIL.ExifTags import TAGS
 
-# --- IDENTIDADE VISUAL ECHATONKIROS ---
+
 BANNER = r"""
   ______      _           _              _____                
  |  ____|    | |         | |            / ____|               
@@ -17,7 +17,7 @@ BANNER = r"""
          [ GROUP: ECHATONKIROS | BY: LARISSA CRISTINA ]
 """
 
-# Configuração de Cores para Terminal Linux (Kali)
+
 CYAN = "\033[1;36m"
 RED = "\033[1;31m"
 GREEN = "\033[1;32m"
