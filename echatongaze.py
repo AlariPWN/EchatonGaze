@@ -33,7 +33,7 @@ def investigar_github(username):
     print(f"[*] Grupo: Echatonkiros")
     print("-" * 62)
 
-    # 1. BUSCA DE EMAILS EM COMMITS
+    
     url_events = f"https://api.github.com/users/{username}/events/public"
     try:
         res_events = requests.get(url_events, timeout=10)
@@ -57,7 +57,7 @@ def investigar_github(username):
     except Exception as e:
         print(f"{RED}[!] Erro ao acessar API de eventos: {e}{RESET}")
 
-    # 2. MAPEAMENTO DE REPOSITÓRIOS E SEGREDOS
+   
     url_repos = f"https://api.github.com/users/{username}/repos"
     try:
         res_repos = requests.get(url_repos, timeout=10)
